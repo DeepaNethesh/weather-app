@@ -22,7 +22,7 @@
 6.  Declare a function to create the HTML.<br>
 7.  Add eventListener to the button.<br>
 8.  Call the function  get the weather for the specific city.<br>
-9.  <br><br>
+ <br><br>
 <h3>Licence</h3>
 MIT License
 
