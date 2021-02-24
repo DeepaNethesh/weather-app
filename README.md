@@ -3,7 +3,7 @@
 <h1 align='center'>Weather App</h1>
 <br><br>
 <h3>Description</h3>
-<br><br>
+
 <p>Create an app to display the weather of different cities<P>
 
 <h3>Technology used</h3>
