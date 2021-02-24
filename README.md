@@ -1,6 +1,6 @@
 # weather-app
 
-Weather App to display the weather of different cities.
+<h1 align='center'>Weather App to display the weather of different cities.</h1>
 <br><br>
 
 Steps: 
