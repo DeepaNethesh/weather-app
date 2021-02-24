@@ -31,31 +31,40 @@ const emojis = {
   const goButton = document.querySelector('#b1');
   const weather = document.querySelector('#weather');
 
-  const createHTML = (name, emoji, temp, feelsLike, description) => `
-    <div class='card'>
+  const createHTML = (name, emoji, temp, feelsLike, description, img) => `
+    <div class='card container bg-light ' >
+  
         <div class='row'>
-            <div class='col-2'>
+            <div class='col-2 fs-2 py-auto'>
                 ${emoji}
             </div>
-            <div class ='col-10'>
+            <div class ='col-10 px-1'>
                 <div class='row'>
-                    <div class='col-4'>
+                    <div class='col-4 fw-bold fs-4 mr-1'>
                         ${name}
                     </div>
-                    <div class='col-6'>
+                    <div class='col-6 fs-6 pt-1'>
                     ${temp}c, feels like ${feelsLike}c
                     </div>
                 </div>
-                <div class='row'>
+                <div class='row fs-4'>
                     ${description}
                 </div>
                 
             </div>
         </div>
-    </div>  
-  `
 
-  goButton.addEventListener('click', () => {
+    </div>  
+    <div class='container pt-4 image' style ='height:100px'>
+        <img src='${img}'>
+        </div>
+  `
+      //     <div class ='image'>
+    //     <img style='background-image:contain; width:100%; height: 400px;' src='./Images/weather.png'>
+    // </div>
+//   const image = document.querySelector('.img');
+  goButton.addEventListener('click', (event) => {
+      event.preventDefault()
       const city = cityName.value;
   
  getDataForCity(city)
@@ -66,8 +75,20 @@ const emojis = {
     const temp = data.main.temp;
     const feelsLike = data.main.feels_like;
     const description = data.weather[0].description; 
+    let img;
+    if(description == 'light rain') {
+        img = 'https://images.unsplash.com/photo-1612813731879-981ed830ecca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDJ8fGxpZ2h0JTIwcmFpbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=500&q=60'
+    } else if (description == 'clear sky') {
+        img = 'https://images.unsplash.com/photo-1601297183305-6df142704ea2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNsZWFyJTIwc2t5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=500&q=60' 
+    } else if (description == 'broken clouds') {
+        img= 'https://images.unsplash.com/photo-1533575988569-5d0786b24c67?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8YnJva2VuJTIwY2xvdWRzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=500&q=60'
+    } else if (description == 'scattered clouds') {
+        img = 'https://images.unsplash.com/photo-1598378028718-37a61e030860?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8c2NhdHRlcmVkJTIwY2xvdWRzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=500&q=60'
+    } else if (description == 'few clouds') {
+        img ='https://images.unsplash.com/photo-1474218861938-d6b14818c8e2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8ZmV3JTIwY2xvdWRzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=500&q=60'
+    }
     
-    const cardHtml = createHTML(name, emoji, temp, feelsLike, description);
+    const cardHtml = createHTML(name, emoji, temp, feelsLike, description, img);
 
     // render!
     weather.innerHTML = cardHtml;
