@@ -14,14 +14,14 @@
 <br><br>
 
 <h3>Steps: </h3>
-1.  Create a repository for the weather app.
-2.  Create the structure of the weather app using HTML.
-3.  In index.js, assign the weather apikey to a variable.
-4.  Get the weather using async-await function.
-5.  Assign emojis to a variable in index.js.
-6.  Declare a function to create the HTML.
-7.  Add eventListener to the button.
-8.  Call the function  get the weather for the specific city.
+1.  Create a repository for the weather app.<br>
+2.  Create the structure of the weather app using HTML.<br>
+3.  In index.js, assign the weather apikey to a variable.<br>
+4.  Get the weather using async-await function.<br>
+5.  Assign emojis to a variable in index.js.<br>
+6.  Declare a function to create the HTML.<br>
+7.  Add eventListener to the button.<br>
+8.  Call the function  get the weather for the specific city.<br>
 9.  <br><br>
 <h3>Licence</h3>
 MIT License
