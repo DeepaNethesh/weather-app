@@ -1,5 +1,17 @@
 # weather-app
 
 Weather App to display the weather of different cities.
+<br><br>
+
+Steps: 
+1.  Create a repository for the weather app.
+2.  Create the structure of the weather app using HTML.
+3.  In index.js, assign the weather apikey to a variable.
+4.  Get the temp using an async-await function.
+5.  Assign emojis to a variable in index.js.
+6.  Declare a function to create the HTML.
+7.  Add eventListener to the button.
+8.  Call the function  get the weather for the specific city.
+
 
 ![image](https://user-images.githubusercontent.com/75956735/108943207-7556b000-76ac-11eb-92e9-0c4ad1e96f69.png)
