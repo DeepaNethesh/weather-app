@@ -2,4 +2,4 @@
 
 Weather App to display the weather of different cities.
 
-`<img src='./Images/weatherapp.png'>`
+<img src='./Images/weatherapp.png'>
