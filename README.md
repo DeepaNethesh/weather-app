@@ -7,10 +7,10 @@
 <p>Create an app to display the weather of different cities<P>
 
 <h3>Technology used</h3>
-1. HTML
-2. Bootstrap
-3. Javascript
-4. Github
+1. HTML <br>
+2. Bootstrap <br>
+3. Javascript<br>
+4. Github<br>
 <br><br>
 
 <h3>Steps: </h3>
