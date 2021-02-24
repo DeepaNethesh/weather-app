@@ -7,8 +7,8 @@
 2. Bootstrap
 3. Javascript
 4. Github
-5. <br><br>
-6. 
+<br><br>
+
 <h3>Steps: </h3>
 1.  Create a repository for the weather app.
 2.  Create the structure of the weather app using HTML.
