@@ -15,7 +15,7 @@
 <h3>Steps: </h3>
 1.  Create a repository for the weather app.<br>
 2.  Create the structure of the weather app using HTML.<br>
-3.  In index.js, assign the weather apikey to a variable.<br>
+3.  In index.js, assign the weather apikey to a variable and use the api"" to get the data.<br>
 4.  Get the weather using async-await function.<br>
 5.  Assign emojis to a variable in index.js.<br>
 6.  Declare a function to create the HTML.<br>
