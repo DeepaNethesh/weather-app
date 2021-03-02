@@ -25,8 +25,4 @@
 <h3>Licence</h3>
 MIT License
 
-
-
-
-![image](https://user-images.githubusercontent.com/75956735/108943207-7556b000-76ac-11eb-92e9-0c4ad1e96f69.png)
->>>>>>> 95a9f26a7f657cb2ec3f6fef8b4d40af94f5fbba
+<img src='./Images/weatherapp.PNG' height='500' />
