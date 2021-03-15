@@ -43,7 +43,7 @@ const emojis = {
                     <div class='col-4 fw-bold fs-4 mr-1'>
                         ${name}
                     </div>
-                    <div class='col-6 fs-6 pt-2'>
+                    <div class='col-6 fs-6 pt-2 fs-4'>
                     ${temp}c, feels like ${feelsLike}c
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const emojis = {
     <div class='container pt-4 pl-4 ' style ='height:100px'>
     <div class='row'>
     <div class='col-lg-6 col-sm-12'>
-        <img src='${img}'>
+        <img class='text-center' src='${img}'>
         </div>
         </div>
         </div>
