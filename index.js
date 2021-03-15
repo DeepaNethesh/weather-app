@@ -55,10 +55,10 @@ const emojis = {
         </div>
 
     </div>  
-    <div class='container pt-4 pl-4 ' style ='height:100px'>
+    <div class='container pt-4 pe-4 ' style ='height:100px; '>
     <div class='row'>
     <div class='col-lg-6 col-sm-12'>
-        <img class='text-center' src='${img}'>
+        <img src='${img}'>
         </div>
         </div>
         </div>
