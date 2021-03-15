@@ -32,7 +32,7 @@ const emojis = {
   const weather = document.querySelector('#weather');
 
   const createHTML = (name, emoji, temp, feelsLike, description, img) => `
-    <div class='card container bg-light ' >
+    <div class='card container bg-light ' style='width:900px;'>
   
         <div class='row'>
             <div class='col-2 fs-2 py-auto'>
@@ -55,9 +55,9 @@ const emojis = {
         </div>
 
     </div>  
-    <div class='container pt-4 pe-4 ' style ='height:100px; '>
+    <div class='container pt-4 ' style ='height:100px; '>
     <div class='row'>
-    <div class='col-lg-6 col-sm-12'>
+    <div class='col-lg-6 col-sm-12 ps-5'>
         <img src='${img}'>
         </div>
         </div>
